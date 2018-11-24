@@ -3,7 +3,7 @@ from PIL import Image
 
 Image = Image.open('lib\image.png')
 #Image.show()
-ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, "lib/image.bmp", 0)
+ctypes.windll.user32.SystemParametersInfoA(20, 0, "lib/image.bmp", 0)
 #winsound.PlaySound('lib\spritecranberry.wav', winsound.SND_FILENAME)
 while True:
 	Image.show()
