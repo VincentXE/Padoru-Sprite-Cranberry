@@ -1,12 +1,9 @@
-import ctypes, os, winsound, win32con, PIL
-from PIL import Image
-
-Image = Image.open('lib\image.png')
-#Image.show()
-ctypes.windll.user32.SystemParametersInfoA(20, 0, "lib/image.bmp", 0)
-#winsound.PlaySound('lib\spritecranberry.wav', winsound.SND_FILENAME)
-while True:
-	Image.show()
-	winsound.PlaySound('lib\padoru.wav', winsound.SND_FILENAME)
-	winsound.PlaySound('lib\spritecranberry.wav', winsound.SND_FILENAME)
+import ctypes, os, winsound
+ctypes.windll.user32.SystemParametersInfoA(20, 0, "lib/image.png", 0)
+#while True:
+	#winsound.PlaySound('lib\padoru.wav', winsound.SND_FILENAME)
+	#winsound.PlaySound('lib\spritecranberry.wav', winsound.SND_FILENAME)
+	os.startfile('lib\\pandoru.png')
+	os.startfile('lib\\image.png')
+	os.startfile('lib\\spritecranberry.png')
 
