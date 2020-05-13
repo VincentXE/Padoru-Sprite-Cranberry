@@ -5,3 +5,5 @@
                       =============================================================================
 
                                     Just have fun. Don't do anything evil with the program.
+                            Don't take yourself too seriously, but don't lose all of your self respect
+                                              Don't be rude to people either.
